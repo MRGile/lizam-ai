@@ -1,0 +1,26 @@
+# Python
+ai-service/.venv/
+ai-service/__pycache__/
+ai-service/**/*.pyc
+
+# Laravel
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/storage/logs/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
