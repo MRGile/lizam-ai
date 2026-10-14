@@ -31,6 +31,7 @@ class BackendAgent(BaseAgent):
             relevant_files = finder.find(
                 task,
                 limit=5,
+                role="backend",
             )
 
             if not relevant_files:
